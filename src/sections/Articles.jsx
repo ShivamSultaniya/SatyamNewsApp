@@ -29,6 +29,7 @@ export default function Articles() {
 
     if (query) {
       fetchData();
+      console.log(query);
     }
   }, [query]);
 
